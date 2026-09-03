@@ -27,4 +27,3 @@ is_student = True
 #     print("You are a student")
 # else:
 #     print("You are NOT a student")
-
