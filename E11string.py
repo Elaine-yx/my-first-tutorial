@@ -1,0 +1,31 @@
+'''
+# name = input("Enter you full name: ")
+phone_number = input("Enter your phone number: ")
+
+# result = len(name)
+# result = name.find(" ")
+
+# index begin with 0, -1 no results
+
+# result = name.rfind("e")
+# name = name.capitalize()
+# name = name.upper()
+# name = name.lower()
+# result = name.isdigit() # whether all numbers
+# result = name.isalpha() # whether all characters
+# result = phone_number.count("-")
+phone_number = phone_number.replace("-", "")
+print(phone_number)
+'''
+
+# print(help(str))
+
+# validate user input exercise
+# 1. username is no more than 12 characters
+# 2. username must not contain spaces
+# 3. username must not contain digits
+
+username = input("Enter a username: ")
+
+if len(username) > 12:
+    print("Your username can't be more than 12 characters")
