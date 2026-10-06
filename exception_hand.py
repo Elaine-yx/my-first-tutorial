@@ -5,5 +5,7 @@ try:
     print(result)
 except ValueError:
     print("Please enter vaild input")
+except ZeroDivisionError:
+    print("Error: You cannot divide by zero.")
 finally:
     print("Finish processing")
