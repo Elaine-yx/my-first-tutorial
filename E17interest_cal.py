@@ -25,8 +25,6 @@ while True:
     else:
         break
 
-# print(rate)
-# print(time)
-
 total = principal * pow((1 + rate / 100), time)
 print(f"Balance after {time} year/s: ${total:.2f}")
+
