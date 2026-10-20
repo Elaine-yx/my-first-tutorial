@@ -26,7 +26,7 @@ if student in students:
     print(f"{student} is a student")
 
 else:
-    print(f"{student} is a student")
+    print(f"{student} is not a student")
 '''
 
 # dictionary
