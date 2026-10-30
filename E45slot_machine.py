@@ -39,11 +39,11 @@ def main():
 
         bet = input("Place your bet amount: ")
 
-        if not bet.isdigit():
-            print("Please enter a valid number")
+        try:
+            bet = int(bet)
+        except ValueError:
+            print("Please enter a valid whole number")
             continue
-
-        bet = int(bet)
 
         if bet > balance:
             print("Insufficient funds")

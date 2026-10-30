@@ -39,7 +39,7 @@ def display_answer(answer):
 
 def main():
     answer = random.choice(words)
-    hint = ["_"] * len(answer)
+    hint = ["_" if letter.isalpha() else letter for letter in answer]
     wrong_guesses = 0
     guessed_letters = set()
     is_running = True
